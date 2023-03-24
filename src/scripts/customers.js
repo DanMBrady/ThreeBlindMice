@@ -42,6 +42,7 @@ let correctEmployee = (customer) =>{
                     <article>${customer.name}</article>
                     <h2>Products</h2>
                     <article>Currently selling ${customer.product}</article>
+                    <h2>Employees</h2>
                    ${employee}
                     </div>`
                 }).join('')
